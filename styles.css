@@ -1,0 +1,76 @@
+/* General body styling with the image as background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('gurukulam_logo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Form container */
+.form-container {
+    width: 400px;
+    margin: 100px auto;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Form heading */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgb(128, 255, 255);
+}
+
+/* Input fields and labels */
+.form-container label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: rgb(255, 128, 255);
+}
+
+.form-container input,
+.form-container textarea,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(255, 255, 128);
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(255, 0, 0);
+}
+
+.form-container input:focus,
+.form-container textarea:focus,
+.form-container select:focus {
+    border-color: #f0e68c;
+    outline: none;
+    box-shadow: 0 0 5px #f0e68c;
+}
+
+/* Submit button */
+.form-container input[type="submit"] {
+    background: #f0e68c;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-container input[type="submit"]:hover {
+    background: #ffd700;
+}
+
+/* Small text for helper text */
+.form-container small {
+    font-size: 12px;
+    color: #ddd;
+}
